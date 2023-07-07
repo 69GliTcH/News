@@ -1,5 +1,5 @@
 const container = document.querySelector(".container");
-for (var i = 1; i <= 50; i++) {
+for (var i = 1; i <= 25; i++) {
     const blocks = document.createElement("block");
     blocks.classList.add("block");
     blocks.style.backgroundImage="url('images/"+i+".jpg')";
